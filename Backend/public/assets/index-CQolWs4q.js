@@ -8993,7 +8993,7 @@ function Ld() {
   const [e, n] = el.useState(null),
     t = async () => {
       const l = await (
-        await fetch("https://monolith-lht8.onrender.com//api")
+        await fetch("https://monolith-lht8.onrender.com/api")
       ).json();
       n(l);
     };
