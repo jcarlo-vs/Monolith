@@ -1,16 +1,12 @@
 {
   "name": "newmonolithic",
   "version": "1.0.0",
-  "main": "index.js",
+  "main": "Backend/app.js",
   "scripts": {
-    "build:frontend": "vite build",
-    "start:backend": "node backend/app.js",
+    "build:frontend": "cd frontend && vite build",
+    "start:backend": "cd Backend && node app.js",
     "build": "npm run build:frontend && npm run start:backend"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "description": "",
   "dependencies": {
     "cors": "^2.8.5",
     "express": "^4.19.2",
